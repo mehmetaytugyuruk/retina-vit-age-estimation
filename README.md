@@ -63,7 +63,16 @@ python src/evaluate.py --model vit_l16 \
 
 ## Pretrained checkpoints
 
-Not distributed via this repository. Pretrained weights will be published on Hugging Face Hub — link to be added here once uploaded.
+Not distributed via this repository (checkpoint files range from ~1GB to ~3.7GB). All 4 checkpoints are hosted on Hugging Face Hub:
+
+**[huggingface.co/mehmetaytugyuruk/retina-vit-age-estimation](https://huggingface.co/mehmetaytugyuruk/retina-vit-age-estimation)**
+
+```python
+from huggingface_hub import hf_hub_download
+ckpt_path = hf_hub_download("mehmetaytugyuruk/retina-vit-age-estimation", "vit-l16-filtered.pth")
+```
+
+See the model card for the full file list, per-model results, and a loading example.
 
 ## Repository structure
 
