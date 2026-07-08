@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below. Full IEEE Xplore
+  publication details (DOI, page numbers) will be added here once the paper
+  is officially indexed -- it has been accepted to SIU 2026 but is not yet
+  published as of this writing."
+title: "Decoding Chronological Age from the Retinal Fundus Images: A Deep Learning-based Analysis with Vision Transformers"
+authors:
+  - family-names: "Yürük"
+    given-names: "Mehmet Aytuğ"
+    affiliation: "Istanbul University"
+  - family-names: "Memiş"
+    given-names: "Abbas"
+    affiliation: "Istanbul University"
+preferred-citation:
+  type: conference-paper
+  title: "Decoding Chronological Age from the Retinal Fundus Images: A Deep Learning-based Analysis with Vision Transformers"
+  authors:
+    - family-names: "Yürük"
+      given-names: "Mehmet Aytuğ"
+    - family-names: "Memiş"
+      given-names: "Abbas"
+  collection-title: "2026 Signal Processing and Communications Applications Conference (SIU)"
+  publisher:
+    name: "IEEE"
+  year: 2026
+  status: "accepted"
