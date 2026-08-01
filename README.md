@@ -1,8 +1,12 @@
 # Retinal Fundus Age Estimation (Vision Transformers)
 
-Official code for:
+**Resources:** [Pretrained weights](https://huggingface.co/mehmetaytugyuruk/retina-vit-age-estimation) · [Paper-to-code mapping](docs/paper-to-code-mapping.md) · [Citation](#citation) · [Companion ResNet study](https://github.com/mehmetaytugyuruk/retina-resnet-age-estimation)
+
+## Publication
 
 > M. A. Yürük and A. Memiş, "Decoding Chronological Age from the Retinal Fundus Images: A Deep Learning-based Analysis with Vision Transformers," accepted to *2026 Signal Processing and Communications Applications Conference (SIU)*. (IEEE Xplore publication pending.)
+
+## Overview
 
 Predicts chronological age from color retinal fundus images using four Vision Transformer variants (ViT-B/16, ViT-B/32, ViT-L/16, ViT-L/32), and derives an age-category classification from the regression output. Directly compares against a ResNet baseline from a companion study on the same dataset.
 
@@ -28,12 +32,15 @@ This repo does not redistribute the images. To reproduce:
 2. Run the preprocessing scripts below.
 3. Place the results under `ImageFolders/filtered_images/` so the paths in `csvFiles/*/*.csv` resolve correctly (or edit the CSVs to point elsewhere).
 
-## Setup
+## Installation
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+Training and evaluation automatically select CUDA, Apple Metal (MPS), or CPU,
+in that order.
 
 ## Preprocessing
 
