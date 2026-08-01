@@ -25,7 +25,12 @@ from sklearn.metrics import (
 from torch.utils.data import DataLoader, Dataset
 from torchvision import models, transforms
 
-DEVICE = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+if torch.cuda.is_available():
+    DEVICE = torch.device("cuda")
+elif torch.backends.mps.is_available():
+    DEVICE = torch.device("mps")
+else:
+    DEVICE = torch.device("cpu")
 
 AGE_CLASSES = {
     0: {"range": (0, 17), "label": "Pediatric (0-17)"},
