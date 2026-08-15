@@ -4,7 +4,10 @@
 
 ## Publication
 
-> M. A. Yürük and A. Memiş, "Decoding Chronological Age from the Retinal Fundus Images: A Deep Learning-based Analysis with Vision Transformers," accepted to *2026 Signal Processing and Communications Applications Conference (SIU)*. (IEEE Xplore publication pending.)
+> M. A. Yürük and A. Memiş, "Decoding Chronological Age from the Retinal Fundus Images: A Deep Learning-based Analysis with Vision Transformers," in *2026 34th Signal Processing and Communications Applications Conference (SIU)*, İstanbul, Türkiye, Jul. 2026, pp. 1–4. doi: [10.1109/SIU71813.2026.11636734](https://doi.org/10.1109/SIU71813.2026.11636734)
+
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FSIU71813.2026.11636734-blue)](https://doi.org/10.1109/SIU71813.2026.11636734)
+[![IEEE Xplore](https://img.shields.io/badge/IEEE%20Xplore-11636734-00629B)](https://ieeexplore.ieee.org/document/11636734)
 
 ## Overview
 
@@ -101,10 +104,12 @@ docs/
 @inproceedings{yuruk2026decoding,
   title     = {Decoding Chronological Age from the Retinal Fundus Images: A Deep Learning-based Analysis with Vision Transformers},
   author    = {Yürük, Mehmet Aytuğ and Memiş, Abbas},
-  booktitle = {2026 Signal Processing and Communications Applications Conference (SIU)},
+  booktitle = {2026 34th Signal Processing and Communications Applications Conference (SIU)},
   year      = {2026},
+  pages     = {1--4},
+  address   = {İstanbul, Türkiye},
   publisher = {IEEE},
-  note      = {Accepted; IEEE Xplore publication pending}
+  doi       = {10.1109/SIU71813.2026.11636734}
 }
 ```
 
