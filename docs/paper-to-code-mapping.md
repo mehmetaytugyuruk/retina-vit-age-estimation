@@ -9,7 +9,7 @@
 | III-D. Chronological Age Prediction and Categorization | `src/evaluate.py`, `age_to_class()` |
 | III-E. Evaluation Metrics | `src/evaluate.py`, `compute_per_class_table()` (Table IV) and `compute_overall_table()` (Table V) |
 | IV. Experimental Results, Tables IV-V | Reproduced by running `src/train.py` then `src/evaluate.py` for each of the 4 ViT models |
-| IV, Table VI (ResNet comparison) | See the [ResNet companion study](https://github.com/mehmetaytugyuruk/retina-resnet-age-estimation) |
+| IV, Table VI (ResNet comparison) | See the [ResNet companion study](https://github.com/mehmetaytugyuruk/retina-resnet-age-prediction) |
 
 ## Training configuration
 

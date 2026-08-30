@@ -3,9 +3,9 @@
 > [!NOTE]
 > **Retinal Age Prediction research series · Study 02**
 >
-> [Series overview](https://github.com/mehmetaytugyuruk/retinal-age-prediction) · [Study 01: ResNet baselines](https://github.com/mehmetaytugyuruk/retina-resnet-age-estimation) · [Study 03: Color spaces](https://github.com/mehmetaytugyuruk/retina-color-spaces-age-prediction)
+> [Publications overview](https://mehmetaytugyuruk.github.io/publications/) · [Study 01: ResNet baselines](https://github.com/mehmetaytugyuruk/retina-resnet-age-prediction) · [Study 03: Color spaces](https://github.com/mehmetaytugyuruk/retina-color-spaces-age-prediction)
 
-**Resources:** [Pretrained weights](https://huggingface.co/mehmetaytugyuruk/retina-vit-age-estimation) · [Paper-to-code mapping](docs/paper-to-code-mapping.md) · [Citation](#citation) · [Companion ResNet study](https://github.com/mehmetaytugyuruk/retina-resnet-age-estimation)
+**Resources:** [Pretrained weights](https://huggingface.co/mehmetaytugyuruk/retina-vit-age-prediction) · [Paper-to-code mapping](docs/paper-to-code-mapping.md) · [Citation](#citation) · [Companion ResNet study](https://github.com/mehmetaytugyuruk/retina-resnet-age-prediction)
 
 ## Publication
 
@@ -18,7 +18,7 @@
 
 Predicts chronological age from color retinal fundus images using four Vision Transformer variants (ViT-B/16, ViT-B/32, ViT-L/16, ViT-L/32), and derives an age-category classification from the regression output. Directly compares against a ResNet baseline from a companion study on the same dataset.
 
-Companion study: [ResNet baseline study](https://github.com/mehmetaytugyuruk/retina-resnet-age-estimation) (IISEC 2026).
+Companion study: [ResNet baseline study](https://github.com/mehmetaytugyuruk/retina-resnet-age-prediction) (IISEC 2026).
 
 ## Results
 
@@ -80,11 +80,11 @@ python src/evaluate.py --model vit_l16 \
 
 Not distributed via this repository (checkpoint files range from ~1GB to ~3.7GB). All 4 checkpoints are hosted on Hugging Face Hub:
 
-**[Hugging Face checkpoint repository](https://huggingface.co/mehmetaytugyuruk/retina-vit-age-estimation)**
+**[Hugging Face checkpoint repository](https://huggingface.co/mehmetaytugyuruk/retina-vit-age-prediction)**
 
 ```python
 from huggingface_hub import hf_hub_download
-ckpt_path = hf_hub_download("mehmetaytugyuruk/retina-vit-age-estimation", "vit-l16-filtered.pth")
+ckpt_path = hf_hub_download("mehmetaytugyuruk/retina-vit-age-prediction", "vit-l16-filtered.pth")
 ```
 
 See the model card for the full file list, per-model results, and a loading example.
