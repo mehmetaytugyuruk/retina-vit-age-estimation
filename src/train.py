@@ -6,7 +6,7 @@ Reproduces the ViT-B/16, ViT-B/32, ViT-L/16, ViT-L/32 experiments from:
   Fundus Images: A Deep Learning-based Analysis with Vision Transformers."
   SIU 2026 (accepted).
 
-Companion study: https://github.com/mehmetaytugyuruk/retina-resnet-age-estimation
+Companion study: https://github.com/mehmetaytugyuruk/retina-resnet-age-prediction
 (ResNet backbones, same dataset and preprocessing).
 """
 

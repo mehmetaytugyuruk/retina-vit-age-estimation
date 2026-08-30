@@ -11,6 +11,7 @@ authors:
   - family-names: "Memiş"
     given-names: "Abbas"
     affiliation: "Istanbul University"
+repository-code: "https://github.com/mehmetaytugyuruk/retina-vit-age-prediction"
 preferred-citation:
   type: conference-paper
   title: "Decoding Chronological Age from the Retinal Fundus Images: A Deep Learning-based Analysis with Vision Transformers"
